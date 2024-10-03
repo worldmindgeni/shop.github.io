@@ -1,0 +1,56 @@
+.contact_form input[type="text"],
+.contact_form input[type="email"] {
+    width: 400px;
+    height: 35px;
+    font-size: 20px;
+    color: rgb(0, 76, 95);
+    font-variant: small-caps;
+    text-transform: capitalize;
+    transition: width 0.4s ease-in-out, background-color 0.4s ease;
+}
+
+.contact_form input[type="text"]:focus,
+.contact_form input[type="email"]:focus {
+    width: 450px; 
+    background-color: rgba(0, 76, 95, 0.2); 
+    color: rgb(0, 76, 95);
+}
+
+
+.contact_form textarea {
+    width: 800px;
+    height: 100px;
+    font-size: 18px;
+    opacity: 0.7;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.contact_form textarea:focus {
+    opacity: 1;
+}
+
+
+.contact_form button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(0, 76, 95);
+    color: white;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.contact_form button:hover {
+    background-color: rgb(0, 150, 180);
+    transform: scale(1.1); 
+}
+
+.contact_form button:active {
+    transform: scale(0.9); 
+}
+
+
+.contact_form input, .contact_form textarea {
+    transition: all 0.3s ease;
+}
